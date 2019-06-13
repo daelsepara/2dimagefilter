@@ -46,6 +46,7 @@ namespace Imager {
       {XbrzScalerType.Xbrz3, Tuple.Create<byte, byte, XbrzFilter>(3, 3, (src,tgt,w,h,minx,miny,maxx,maxy)=>libXBRz.ScaleImage(libXBRz.ScaleSize.TIMES3, src,tgt,w,h,minx,miny,maxx,maxy))},
       {XbrzScalerType.Xbrz4, Tuple.Create<byte, byte, XbrzFilter>(4, 4, (src,tgt,w,h,minx,miny,maxx,maxy)=>libXBRz.ScaleImage(libXBRz.ScaleSize.TIMES4, src,tgt,w,h,minx,miny,maxx,maxy))},
       {XbrzScalerType.Xbrz5, Tuple.Create<byte, byte, XbrzFilter>(5, 5, (src,tgt,w,h,minx,miny,maxx,maxy)=>libXBRz.ScaleImage(libXBRz.ScaleSize.TIMES5, src,tgt,w,h,minx,miny,maxx,maxy))},
+      {XbrzScalerType.Xbrz6, Tuple.Create<byte, byte, XbrzFilter>(6, 6, (src,tgt,w,h,minx,miny,maxx,maxy)=>libXBRz.ScaleImage(libXBRz.ScaleSize.TIMES6, src,tgt,w,h,minx,miny,maxx,maxy))},
     };
 
     /// <summary>

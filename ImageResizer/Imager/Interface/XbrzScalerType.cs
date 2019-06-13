@@ -36,5 +36,8 @@ namespace Imager.Interface {
     [EnumDisplayName("XBRz 5x")]
     [Description("Zenju's XBRz 5x")]
     Xbrz5,
-  }
+    [EnumDisplayName("XBRz 6x")]
+    [Description("Zenju's XBRz 6x")]
+    Xbrz6,
+    }
 }
